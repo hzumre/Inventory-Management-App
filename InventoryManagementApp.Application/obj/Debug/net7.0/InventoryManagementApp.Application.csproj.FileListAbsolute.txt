@@ -1,0 +1,15 @@
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\bin\Debug\net7.0\InventoryManagementApp.Application.deps.json
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\bin\Debug\net7.0\InventoryManagementApp.Application.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\bin\Debug\net7.0\InventoryManagementApp.Application.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\bin\Debug\net7.0\InventoryManagementApp.Domain.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\bin\Debug\net7.0\InventoryManagementApp.Domain.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.csproj.AssemblyReference.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.AssemblyInfoInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.AssemblyInfo.cs
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.csproj.CopyComplete
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\refint\InventoryManagementApp.Application.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\InventoryManagementApp.Application.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Application\obj\Debug\net7.0\ref\InventoryManagementApp.Application.dll

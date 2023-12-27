@@ -1,0 +1,82 @@
+﻿@using InventoryManagementApp.Presentation.Models.ViewModels.BrandVMs;
+@using InventoryManagementApp.Presentation.Models.ViewModels.InventoryVMs;
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model InventoryUpdateVM;
+
+@if (TempData["error"] is not null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["Error"]
+    </div>
+}
+
+<div class="form-floating mb-8 p-4">
+    <div id="modalPlaceHolder" class="container-fluid pt-8 px-8">
+        <div aria-hidden="true"></div>
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h4 class="mb-4">Update Inventory</h4>
+                <form method="post" asp-action="Edit" asp-controller="Inventory">
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <input type="text" class="form-control" asp-for="@Model.GoodName" readonly>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.Amount placeholder="Enter Amount" aria-label="Supplier Model Code">
+                            <input type="text" id="unitInput" class="form-control" style="margin-left:1rem" aria-label="Unit" asp-for="@Model.Unit" readonly>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <select class="form-select" id="warehouseDropdown" aria-label="Warehouse" asp-for="@Model.WarehouseId" asp-items="ViewBag.Warehouses"></select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <a class="btn btn-danger mx-2 form-button" asp-controller="Good" asp-action="ListActive">Cancel</a>
+                            <input type="submit" value="Save" class="btn btn-success mx-2 form-button" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    document.getElementById('goodDropdown').addEventListener('change', function () {
+        var selectedGood = this.value;
+        console.log(selectedGood);
+        getGoodUnit(selectedGood);
+    });
+
+    function getGoodUnit(goodId) {
+        $.ajax({
+            url: '/Inventory/GetGoodUnit', // Bu, server tarafındaki ilgili endpoint olmalı
+            type: 'GET',
+            data: { goodId: goodId },
+            success: function (response) {
+
+                document.getElementById('unitInput').value = response;
+            },
+            error: function (error) {
+                console.error('Ürün birim bilgisini alma hatası:', error);
+            }
+        });
+    }
+
+</script>
+
+

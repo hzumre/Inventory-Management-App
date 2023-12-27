@@ -1,0 +1,202 @@
+@using InventoryManagementApp.Domain.Enums;
+@using InventoryManagementApp.Presentation.Models.ViewModels.BrandVMs;
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model GoodCreateVM
+
+@if (TempData["error"] is not null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["error"]
+    </div>
+}
+
+<div class="form-floating mb-8 p-4">
+    <div id="modalPlaceHolder" class="container-fluid pt-8 px-8">
+        <div aria-hidden="true"></div>
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h4 class="mb-4">Add Good</h4>
+                <form method="post" asp-action="Create" asp-controller="Good">
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.Code placeholder="Unique Good Code" aria-label="Good Code">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.ModelCode placeholder="Supplier Model Code" aria-label="Supplier Model Code">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" id="GoodName" class="form-control" asp-for=@Model.Name placeholder="Good Name" aria-label="GoodName">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="floatingSelect"
+                                    aria-label="Floating label select example" asp-for="@Model.StockingUnit" asp-items="@Html.GetEnumSelectList<UnitType>()">
+                                <option selected>Choose Stocking Unit...</option>
+                            </select>
+                            <select class="form-select" id="floatingSelect" style="margin-left:1rem"
+                                    aria-label="Floating label select example" asp-for="@Model.ConsumptionUnit" asp-items="@Html.GetEnumSelectList<UnitType>()">
+                                <option selected>Choose Consumption Unit...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.GrossWeight placeholder="Gross Weight" aria-label="GrossWeight">
+                            <input type="text" style="margin-left:1rem" class="form-control" asp-for=@Model.NetWeight placeholder="Net Weight" aria-label="NetWeight">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.Barcode placeholder="Barcode" aria-label="Barcode">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.ListPrice placeholder="List Price" aria-label="ListPrice">
+                            <select class="form-select" id="floatingSelect" style="max-width:fit-content"
+                                    aria-label="Floating label select example" asp-for="@Model.ListCurrency" asp-items="@Html.GetEnumSelectList<CurrencyCodes>()">
+                                <option selected>@CurrencyCodes.TRY</option>
+                            </select>
+                            <input type="text" class="form-control" style="margin-left:1rem;max-width:165px" asp-for=@Model.TaxPercentage placeholder="Tax Percentage" aria-label="TaxPercentage">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <select class="form-select" id="categoryDropdown" aria-label="Floating label select example" asp-for="@Model.CategoryID" asp-items="ViewBag.CategoryId">
+                                <option selected value="">Select Category... </option>
+                                @if (Model.CategoryList != null)
+                                {
+                                    @foreach (var item in Model.CategoryList)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                }
+
+                            </select>
+                            <!-- Button trigger modal -->
+                            <button class="button" style="vertical-align:middle" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <span>
+                                    Add Category
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <select class="form-select" id="subcategoryDropdown" aria-label="Floating label select example" asp-for="@Model.SubCategoryID">
+                                <option selected value="">Select SubCategory...</option>
+                                @*@if (Model.SubCategoryList != null)
+                                {
+                                @foreach (var item in Model.SubCategoryList)
+                                {
+                                <option value="@item.ID">@item.SubCategoryName</option>
+                                }
+                                }*@
+                            </select>
+                            <button class="button" id="addSubCategoryBtn" style="vertical-align:middle" type="button" @* data-bs-toggle="modal" data-bs-target="#staticBackdropSubCategory" *@>
+                                <span>
+                                    Add SubCategory
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <select class="form-select" id="floatingSelect-design" aria-label="Floating label select example" asp-for="@Model.BrandID">
+                                <option selected value="">Select Brand... </option>
+                                @if (Model.BrandList != null)
+                                {
+                                    @foreach (var item in Model.BrandList)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                }
+                            </select>
+                            <button class="button" style="vertical-align:middle" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdropBrand">
+                                <span>
+                                    Add Brand
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <a class="btn btn-danger mx-2 form-button" asp-controller="Good" asp-action="ListActive">Cancel</a>
+                            <input type="submit" value="Save" class="btn btn-success mx-2 form-button" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@await Html.PartialAsync("_CategoryAddPartial",new CategoryCreateVM())
+@await Html.PartialAsync("_SubCategoryAddPartial",new SubCategoryCreateVM())
+@await Html.PartialAsync("_BrandAddPartial",new BrandCreateVM())
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    var categoryId;
+    $(document).ready(function () {
+        $("#categoryDropdown").change(function () {
+             categoryId = $(this).val();
+            $.ajax({
+                url: '/Good/GetSubcategories',
+                type: 'GET',
+                data: { categoryId: categoryId },
+                success: function (data) {
+                    var subcategoryDropdown = $("#subcategoryDropdown");
+                    subcategoryDropdown.empty();
+                    $.each(data, function (i, subcategory) {
+                        subcategoryDropdown.append($('<option/>', {
+                            value: subcategory.id,
+                            text: subcategory.subCategoryName
+
+                        }));
+                    });
+                }
+            });
+        });
+    });
+
+
+    $(document).on("click", "#addSubCategoryBtn", function () {
+        subcatadd: if ($("#categoryDropdown").val() == "") {
+            alert("Please select category first");
+        }
+        else {
+            $('#staticBackdropSubCategory').modal('show');
+            $(".modal-body #categoryId").val(categoryId);
+        }
+    })
+
+</script>
+
+
+
+
+

@@ -1,0 +1,17 @@
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Infrastructure.deps.json
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Infrastructure.runtimeconfig.json
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Infrastructure.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Infrastructure.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Domain.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\bin\Debug\net7.0\InventoryManagementApp.Domain.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.AssemblyInfo.cs
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.csproj.CopyComplete
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\refint\InventoryManagementApp.Infrastructure.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\InventoryManagementApp.Infrastructure.genruntimeconfig.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Infrastructure\obj\Debug\net7.0\ref\InventoryManagementApp.Infrastructure.dll

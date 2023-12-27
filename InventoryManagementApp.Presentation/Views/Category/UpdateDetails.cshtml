@@ -1,0 +1,189 @@
+﻿@using InventoryManagementApp.Domain.Enums;
+
+@{
+    ViewData["Title"] = "UpdateDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@model CategoryUpdateVM
+
+<div class="form-floating mb-8 p-4">
+    <div class="container-fluid pt-8 px-8">
+
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h4 class="mb-4">Update Category</h4>
+                <form method="post" asp-action="UpdateDetails" asp-controller="Category">
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Name</span>
+                            </div>
+                            <input type="text" class="form-control" asp-for=@Model.CategoryName placeholder="Name" aria-label="NameOfCategory">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Description</span>
+                            </div>
+                            <input type="text" class="form-control" asp-for="@Model.Description" placeholder="Description" aria-label="Description">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">Status</span>
+                            </div>
+                            <select class="form-select" asp-for="@Model.Status" asp-items="@Html.GetEnumSelectList<Status>()">
+                                <option selected style="display:none">@Model.Status</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+
+
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <a class="btn btn-danger mx-2 form-button" asp-controller="Category" asp-action="ListActive">Cancel</a>
+                            <input type="submit" value="Save" class="btn btn-success mx-2 form-button" />
+                        </div>
+                    </div>
+
+                </form>
+                <br />
+                <div class="accordion" id="subcategoryAccordeon">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="true" aria-controls="collapse">
+                                @Model.CategoryName / Sub-Category List
+                            </button>
+                        </h2>
+                        <div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#subcategoryAccordeon">
+                            <div class="accordion-body">
+                                @if (TempData["error"] is not null)
+                                {
+                                    <div class="alert alert-danger" role="alert">
+                                        @TempData["error"]
+                                    </div>
+                                }
+
+                                <button id="addSubCategoryBtn" data-id="@Model.ID" type="button" class="button" data-toggle="modal" data-target="#staticBackdropSubCategory">
+                                    <span>Add SubCategory</span>
+                                </button>
+
+                                <div class="col-12">
+                                    <div class="bg-light rounded h-100 p-4">
+                                        <div class="d-flex justify-content-between align-items-center" style="margin-bottom:16px">
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table" id="example">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Description</th>
+                                                        <th class="text-center">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    @foreach (var sb in Model.SubCategories)
+                                                    {
+                                                        <tr>
+                                                            <td id="id">@sb.ID</td>
+                                                            <td id="name">@sb.SubCategoryName</td>
+                                                            <td id="status">@sb.Status</td>
+                                                            <td id="description">@sb.Description</td>
+                                                            <td class="text-center">
+                                                                <a onclick="showInPopup('@Url.Action("UpdateSubCategory","Category",new {id=sb.ID},Context.Request.Scheme)')" class="btn pt-0">
+                                                                    <i class="far fa-edit" style="color:coral;font-size:20px"></i>
+                                                                </a>
+
+                                                                <a class="btn pt-0" asp-action="DeleteSubCategory" asp-controller="Category" asp-route-id="@sb.ID" asp-route-categoryid="@Model.ID" type="button" data-toggle="popover" title="Delete">
+                                                                    <i class="far fa-trash-alt" style="color:red;font-size:20px"></i>
+                                                                </a>
+
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal hide fade" id="staticBackdropSubCategory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New SubCategory</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close" aria-hidden="true"></button>
+            </div>
+            <div class="modal-body">
+                @await Html.PartialAsync("SubCategoryCreate",new CategoryUpdateVM())
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal hide fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"> Update SubCategory</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <partial name="SubCategoryUpdate" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(document).ready(function () {
+            $('#example').DataTable;
+        });
+    })
+
+    function showInPopup(url) {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function (res) {
+                $("#exampleModal2 .modal-body").html(res);
+                $("#exampleModal2").modal('show');
+            }
+        })
+    }
+
+    var categoryId;
+    $(document).on("click", "#addSubCategoryBtn", function () {
+        categoryId = $(this).data('id')
+    });
+
+    $(document).on("click", "#createSubCategorySubmit", function () {
+        $(".modal-body #categoryId").val(categoryId);
+    })
+
+</script>
+

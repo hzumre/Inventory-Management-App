@@ -1,0 +1,42 @@
+﻿@using InventoryManagementApp.Presentation.Models.ViewModels.InventoryVMs;
+
+@model List<InventoryListVM>
+
+
+<table class="table" id="example">
+    <thead>
+        <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Good Name</th>
+            <th scope="col">Amount</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in ViewBag.GroupedInventoryByGoodId)
+        {
+            <tr>
+                <td>@group.GoodCode</td>
+                <td>@group.GoodName</td>
+                <td>@group.TotalAmount</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script>
+    // DataTable'ı başlatma işlemi
+    $(document).ready(function () {
+        $('#example').DataTable();
+    });
+</script>
+
+
+
+
+
+
+

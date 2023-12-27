@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model CategoryVM
+<style>
+    #checklist {
+        list-style-type: none;
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+        #checklist li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+            #checklist li::before {
+                content: "-";
+                margin-right: 10px;
+                color: #4F29F0; /* Çizgi rengi */
+            }
+
+</style>
+
+
+
+
+<div class="col-sm-12 col-xl-12">
+    <div class="bg-light rounded h-100 p-4">
+        <h4 class="mb-4">Category Details</h4>
+        <dl class="row mb-0">
+
+            <dt class="col-sm-4 mb-2">ID</dt>
+            <dd class="col-sm-8">@Model.ID</dd>
+
+            <dt class="col-sm-4 mb-2">Category Name</dt>
+            <dd class="col-sm-8">@Model.CategoryName</dd>
+
+            <dt class="col-sm-4 mb-2">Status</dt>
+            <dd class="col-sm-8">@Model.Status</dd>
+
+            <dt class="col-sm-4 mb-2">Description</dt>
+            <dd class="col-sm-8">@Model.Description</dd>
+
+
+
+            <dt class="col-sm-4  mb-2">Created By</dt>
+            <dd class="col-sm-8">@Model.CreatedBy</dd>
+
+            <dt class="col-sm-4 mb-2">Created Date</dt>
+            <dd class="col-sm-8">@Model.CreatedDate</dd>
+
+            <dt class="col-sm-4 mb-2">Modified By</dt>
+            <dd class="col-sm-8">@Model.ModifiedBy</dd>
+
+            <dt class="col-sm-4 mb-2">Modified Date</dt>
+            <dd class="col-sm-8">@Model.ModifiedDate</dd>
+
+
+            @if (Model.SubCategoryList.Count() > 0)
+            {
+                <dt class="col-sm-4 mb-2">SubCategory</dt>
+                <dd class="col-sm-8">
+                    <div class="row">
+                        @foreach (var item in Model.SubCategoryList)
+                        {
+                            <div class="col-3">
+                                <span>@item.Text</span>
+                            </div>
+                        }
+                    </div>
+                </dd>
+            }
+        </dl>
+    </div>
+</div>
+

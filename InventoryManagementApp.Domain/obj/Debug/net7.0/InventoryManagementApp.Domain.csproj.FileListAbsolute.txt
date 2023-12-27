@@ -1,0 +1,12 @@
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\bin\Debug\net7.0\InventoryManagementApp.Domain.deps.json
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\bin\Debug\net7.0\InventoryManagementApp.Domain.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\bin\Debug\net7.0\InventoryManagementApp.Domain.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.csproj.AssemblyReference.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.AssemblyInfoInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.AssemblyInfo.cs
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\refint\InventoryManagementApp.Domain.dll
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\InventoryManagementApp.Domain.pdb
+C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Domain\obj\Debug\net7.0\ref\InventoryManagementApp.Domain.dll

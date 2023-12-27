@@ -1,0 +1,59 @@
+﻿
+@model SubCategoryCreateVM
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdropSubCategory" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">SubCategory</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <form class="form fv-plugins-bootstrap5 fv-plugins-framework" method="post">
+                    @* Remove the unnecessary hidden input for ID if not needed *@
+
+                    <div class="mb-2">
+                        <label asp-for="SubCategoryName">SubCategory Name</label>
+                        <input id="subCategoryName" type="text" asp-for="SubCategoryName" class="form-control" placeholder="SubCategoryName" />
+                    </div>
+                    <div class="mb-2">
+                        <label asp-for="Description"></label>
+                        <input type="text" asp-for="Description" class="form-control" placeholder="Description" />
+                    </div>
+                    <div class="form-floating mb-6 d-none">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" style="width:120px">Category ID</span>
+                            </div>
+                            <input type="text" id="categoryId" class="form-control" asp-for=CategoryID readonly placeholder="Category ID" aria-label="Category ID" value="">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button id="btnSubCategoryAdd" type="submit" class="btn btn-primary" id="createSubCategorySubmit">Create</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).on("click", "#btnSubCategoryAdd", function (event) {
+        event.preventDefault();
+        $.ajax({
+            url: "/Good/CreateSubCategory",
+            type: "POST",
+            data: { "subCategoryName": $("#subCategoryName").val(), "categoryId": $("#categoryId").val() },
+            success: function (response) {
+                $("#staticBackdropSubCategory").modal("hide");
+                $("#subcategoryDropdown").append(`<option value="${response.value}">${response.text}</option>`);
+                $("#subcategoryDropdown").val(response.value)
+            },
+        });
+    });
+</script>

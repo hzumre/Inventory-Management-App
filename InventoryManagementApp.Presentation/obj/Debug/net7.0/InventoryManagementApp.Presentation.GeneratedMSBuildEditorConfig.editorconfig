@@ -1,0 +1,421 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InventoryManagementApp.Presentation
+build_property.RootNamespace = InventoryManagementApp.Presentation
+build_property.ProjectDir = C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Presentation\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\sonuc\Desktop\H\InventoryManagementApp\InventoryManagementApp.Presentation
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Batch/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Batch/GetAllActiveBatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hcR2V0QWxsQWN0aXZlQmF0Y2hlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Batch/GetAllBatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hcR2V0QWxsQmF0Y2hlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Batch/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Batch/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0Y2hcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/BillOfMaterials/ActiveBOMs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbE9mTWF0ZXJpYWxzXEFjdGl2ZUJPTXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/BillOfMaterials/AllBOMs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbE9mTWF0ZXJpYWxzXEFsbEJPTXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/BillOfMaterials/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbE9mTWF0ZXJpYWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/BillOfMaterials/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbE9mTWF0ZXJpYWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/BillOfMaterials/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbE9mTWF0ZXJpYWxzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Brand/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Brand/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Brand/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Brand/GetAllActiveBrands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcR2V0QWxsQWN0aXZlQnJhbmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Brand/GetAllBrands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcR2V0QWxsQnJhbmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/GetAllActiveCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQWN0aXZlQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/GetAllCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/SubCategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU3ViQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/SubCategoryUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcU3ViQ2F0ZWdvcnlVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Category/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Conversion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVyc2lvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Conversion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVyc2lvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Conversion/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVyc2lvblxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Conversion/GetAllActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVyc2lvblxHZXRBbGxBY3RpdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Conversion/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udmVyc2lvblxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Customer/GetAllActiveCustomers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcR2V0QWxsQWN0aXZlQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Customer/GetAllCustomers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcR2V0QWxsQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Customer/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Employee/GetAllActiveEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcR2V0QWxsQWN0aXZlRW1wbG95ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Employee/GetAllEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcR2V0QWxsRW1wbG95ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Employee/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Good/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Good/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Good/GetAllActiveGoods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZFxHZXRBbGxBY3RpdmVHb29kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Good/GetAllGoods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZFxHZXRBbGxHb29kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Good/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/GetAllInventories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEdldEFsbEludmVudG9yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/_InventoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XF9JbnZlbnRvcnlQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/_InventoryWarehouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XF9JbnZlbnRvcnlXYXJlaG91c2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Inventory/_ListInventoriesWithoutBatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XF9MaXN0SW52ZW50b3JpZXNXaXRob3V0QmF0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Manager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Manager/GetAllActiveManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxHZXRBbGxBY3RpdmVNYW5hZ2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Manager/GetAllManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxHZXRBbGxNYW5hZ2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Manager/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxVcGRhdGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrderDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlckRldGFpbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrderDetail/GetAllActivePurchaseOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlckRldGFpbFxHZXRBbGxBY3RpdmVQdXJjaGFzZU9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrderDetail/GetAllPurchaseOrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlckRldGFpbFxHZXRBbGxQdXJjaGFzZU9yZGVyRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrderDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlckRldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrderDetail/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlckRldGFpbFxVcGRhdGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrder/GetAllActivePurchaseOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlclxHZXRBbGxBY3RpdmVQdXJjaGFzZU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrder/GetAllPurchaseOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlclxHZXRBbGxQdXJjaGFzZU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/PurchaseOrder/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VPcmRlclxVcGRhdGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrderDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlckRldGFpbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrderDetails/GetAllActiveSalesOrdersDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlckRldGFpbHNcR2V0QWxsQWN0aXZlU2FsZXNPcmRlcnNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrderDetails/GetAllSalesOrdersDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlckRldGFpbHNcR2V0QWxsU2FsZXNPcmRlcnNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrderDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlckRldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrderDetails/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlckRldGFpbHNcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrder/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrder/GetAllActiveSalesOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlclxHZXRBbGxBY3RpdmVTYWxlc09yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrder/GetAllSalesOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlclxHZXRBbGxTYWxlc09yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SalesOrder/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNPcmRlclxVcGRhdGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/_BrandAddPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CcmFuZEFkZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/_CategoryAddPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeUFkZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/_SubCategoryAddPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJDYXRlZ29yeUFkZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/StockTransfer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tUcmFuc2ZlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/StockTransfer/GetAllStockTransfer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tUcmFuc2ZlclxHZXRBbGxTdG9ja1RyYW5zZmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/StockTransfer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tUcmFuc2ZlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/StockTransfer/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvY2tUcmFuc2ZlclxVcGRhdGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SubCategory/GetAllActiveSubCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcR2V0QWxsQWN0aXZlU3ViQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SubCategory/GetAllSubCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcR2V0QWxsU3ViQ2F0ZWdvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/SubCategory/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Supplier/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Supplier/GetAllActiveSuppliers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcR2V0QWxsQWN0aXZlU3VwcGxpZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Supplier/GetAllSuppliers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcR2V0QWxsU3VwcGxpZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Supplier/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcVXBkYXRlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/GetAllActiveWarehouses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXEdldEFsbEFjdGl2ZVdhcmVob3VzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/GetAllWarehouses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXEdldEFsbFdhcmVob3VzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Warehouse/UpdateDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FyZWhvdXNlXFVwZGF0ZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sonuc/Desktop/H/InventoryManagementApp/InventoryManagementApp.Presentation/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cwcukzrwbo

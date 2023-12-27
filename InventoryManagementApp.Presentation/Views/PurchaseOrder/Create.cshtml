@@ -1,0 +1,88 @@
+﻿@using InventoryManagementApp.Presentation.Models.ViewModels.PurchaseOrderVMs;
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model PurchaseOrderCreateVM
+
+@if (TempData["error"] is not null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["error"]
+    </div>
+}
+
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="~/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="~/dist/js/select2.min.js" defer></script>
+    <style>
+        .my-custom-select + .select2-container .select2-selection {
+            height: 37.6px;
+            border: 1px solid #ced4da;
+        }
+
+        .my-custom-select + .select2-container .select2-selection__rendered {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 37.6px;
+        }
+    </style>
+</head>
+
+<div class="form-floating mb-8 p-4">
+    <div class="container-fluid pt-8 px-8">
+
+        <div class="col-sm-12 col-xl-12">
+            <div class="bg-light rounded h-100 p-4">
+                <h4 class="mb-4">Add PurchaseOrder</h4>
+                <form method="post" asp-action="Create" asp-controller="PurchaseOrder">
+                    
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" asp-for=@Model.PurchaseOrderTotal placeholder="PurchaseOrderTotal" aria-label="PurchaseOrderTotal">
+                            <input type="text" class="form-control" asp-for="@Model.TaxTotal" placeholder="TaxTotal" aria-label="TaxTotal" style="margin-left:1rem">
+                            <select class="form-select" id="floatingSelect"
+                                    aria-label="Floating label select example" asp-for="@Model.Currency" asp-items="@Html.GetEnumSelectList<CurrencyCodes>()" style="margin-left:1rem">
+                                <option selected>Choose Currency...</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <br />
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3">
+                            <select class="form-select my-custom-select " id="supplierDropdown" aria-label="Supplier" asp-for="@Model.SupplierID" asp-items="ViewBag.Suppliers">
+                                <option selected value="">Select Supplier... </option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <br />
+
+                    <div class="form-floating mb-6">
+                        <div class="input-group mb-3" id="design">
+                            <a class="btn btn-danger mx-2 form-button" asp-controller="PurchaseOrder" asp-action="ListActive">Cancel</a>
+                            <input type="submit" value="Save" class="btn btn-success mx-2 form-button" />
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#supplierDropdown').select2();
+     
+    });
+</script>
+
+
